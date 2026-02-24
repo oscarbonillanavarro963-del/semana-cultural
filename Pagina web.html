@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semana Cultural 2026</title>
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    /* Estilos sencillos para que quede bonito */
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+    
+    .hero h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 40px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR (menú) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">🎭 SEMANA CULTURAL 2026</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info">Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#actividades">Actividades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION (cabecera principal) -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h1>SEMANA CULTURAL 2026</h1>
+      <p class="lead">Del 15 al 21 de Mayo · Arte · Música · Teatro · Talleres</p>
+      <a href="#info" class="btn btn-primary btn-lg">Más información</a>
+      <a href="#actividades" class="btn btn-outline-light btn-lg">Ver actividades</a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 1: INFORMACIÓN ESENCIAL (3 columnas) -->
+  <section id="info" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">INFORMACIÓN ESENCIAL</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="bi bi-calendar-check display-1 text-primary mb-3"></i>
+              <h3>¿CUÁNDO?</h3>
+              <p class="fs-5">15 al 21 de Mayo 2026</p>
+              <p>De 10:00 a 22:00 h</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="bi bi-geo-alt display-1 text-success mb-3"></i>
+              <h3>¿DÓNDE?</h3>
+              <p class="fs-5">Plaza Mayor y Centro Cultural</p>
+              <p>Madrid</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="bi bi-ticket display-1 text-warning mb-3"></i>
+              <h3>ENTRADAS</h3>
+              <p class="fs-5">Todas las actividades son GRATUITAS</p>
+              <p>Algunos talleres necesitan inscripción</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: ACTIVIDADES DESTACADAS (3 columnas con imágenes) -->
+  <section id="actividades" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">ACTIVIDADES DESTACADAS</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" class="card-img-top" alt="Concierto">
+            <div class="card-body">
+              <h5 class="card-title">🎸 Conciertos al aire libre</h5>
+              <p class="card-text">Música de todos los estilos: rock, pop, jazz y música clásica.</p>
+              <p><strong>Plaza Mayor · 20:00 h</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="https://images.unsplash.com/photo-1503095396549-807759245b35?ixlib=rb-4.0.3&auto=format&fit=crop&w=1171&q=80" class="card-img-top" alt="Teatro">
+            <div class="card-body">
+              <h5 class="card-title">🎭 Obras de teatro</h5>
+              <p class="card-text">Compañías locales representarán obras clásicas y modernas.</p>
+              <p><strong>Centro Cultural · 18:00 h</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <img src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=880&q=80" class="card-img-top" alt="Talleres">
+            <div class="card-body">
+              <h5 class="card-title">🎨 Talleres creativos</h5>
+              <p class="card-text">Pintura, cerámica, escritura y fotografía para todas las edades.</p>
+              <p><strong>Centro Cultural · Mañanas</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <a href="#" class="btn btn-primary btn-lg">Ver programa completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN EXTRA: CARRUSEL DE FOTOS (para que quede más chulo) -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">MOMENTOS DE LA EDICIÓN ANTERIOR</h2>
+      <div id="carouselFotos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-3 shadow">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Foto 1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Foto 2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Foto 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFotos" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselFotos" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER (pie de página) -->
+  <footer id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Semana Cultural 2026</h5>
+          <p>Un evento para toda la familia organizado por el Ayuntamiento.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacto</h5>
+          <p><i class="bi bi-envelope"></i> cultura@ayuntamiento.es<br>
+          <i class="bi bi-telephone"></i> 912 345 678</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Síguenos</h5>
+          <p><i class="bi bi-instagram"></i> @semana.cultural<br>
+          <i class="bi bi-facebook"></i> /semana.cultural</p>
+        </div>
+      </div>
+      <hr class="bg-light">
+      <p class="text-center mb-0">© 2026 Semana Cultural - Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (necesario para el menú responsive y el carrusel) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
