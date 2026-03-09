@@ -5,9 +5,9 @@ Página web informativa para la Semana Cultural 2026, un evento con conciertos, 
 Secciones usadas y columnas de Bootstrap
 - Navbar: menú de navegación
 - Hero: sección principal con imagen de fondo
-- Sección 1 - Información: 3 columnas, con tarjetas
-- Sección 2 - Actividades: 3 columnas, con imágenes
-- Footer: 3 columnas con información de contacto
+- Sección 1 - Información del evento
+- Sección 2 - Actividades que se realizan en el evento
+- Footer: 3 - Información de contacto
 
 Componentes de Bootstrap usados
 - Navbar
